@@ -1,3 +1,5 @@
+# project/ingest.py
+from __future__ import annotations
 from pathlib import Path
 from datetime import datetime
 import pandas as pd
@@ -8,10 +10,15 @@ RAW_COLS = [
     "satisfaccion", "comentario", "tienda", "agente"
 ]
 
-def read_excels(input_root: str) -> pd.DataFrame:
-    files = list(Path(input_root).rglob("encuestas_*.xlsx"))
+def read_xlsx_exports(xlsx_root: str = "project/output/xlsx") -> pd.DataFrame:
+    
+    root = Path(xlsx_root)
+    if not root.exists():
+        raise FileNotFoundError(f"No existe la carpeta de exportados XLSX: {xlsx_root}")
+
+    files = [f for f in root.rglob("*.xlsx") if not f.name.startswith("~$")]
     if not files:
-        raise FileNotFoundError(f"No se encontraron Excels en {input_root}")
+        raise FileNotFoundError(f"No se encontraron XLSX exportados en {xlsx_root}")
 
     frames = []
     now_iso = datetime.now().isoformat()
