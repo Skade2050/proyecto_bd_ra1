@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-      <title>BDA-UT1</title>
-      <link>https://https://skade2050.github.io/proyecto_bd_ra1</link>
-      <description>Últimas 10 notas on BDA-UT1</description>
+      <title>BDA-RA1</title>
+      <link>https:///proyecto_bd_ra1</link>
+      <description>Últimas 10 notas on BDA-RA1</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Pipeline de Encuestas</title>
-    <link>https://https://skade2050.github.io/proyecto_bd_ra1/</link>
-    <guid>https://https://skade2050.github.io/proyecto_bd_ra1/</guid>
-    <description><![CDATA[ Documentación completa del pipeline de encuestas — desde la ingesta y limpieza hasta el reporte final. ]]></description>
-    <pubDate>Sun, 09 Nov 2025 11:48:00 GMT</pubDate>
-  </item><item>
     <title>1. Ingesta y Almacenamiento</title>
-    <link>https://https://skade2050.github.io/proyecto_bd_ra1/docs/1-ingesta-almacenamiento</link>
-    <guid>https://https://skade2050.github.io/proyecto_bd_ra1/docs/1-ingesta-almacenamiento</guid>
+    <link>https:///proyecto_bd_ra1/docs/1-ingesta-almacenamiento</link>
+    <guid>https:///proyecto_bd_ra1/docs/1-ingesta-almacenamiento</guid>
     <description><![CDATA[ Proceso de carga inicial de datos, trazabilidad y almacenamiento en bruto (capa Bronze). ]]></description>
-    <pubDate>Sun, 09 Nov 2025 11:45:42 GMT</pubDate>
-  </item><item>
-    <title>Reporte UT1 · Encuestas de Satisfacción</title>
-    <link>https://https://skade2050.github.io/proyecto_bd_ra1/reportes/reporte-encuestas</link>
-    <guid>https://https://skade2050.github.io/proyecto_bd_ra1/reportes/reporte-encuestas</guid>
-    <description><![CDATA[ Análisis mensual de encuestas tras limpieza, validación y almacenamiento de datos. ]]></description>
-    <pubDate>Sun, 09 Nov 2025 11:45:26 GMT</pubDate>
-  </item><item>
-    <title>3. Modelado y Generación de Reportes</title>
-    <link>https://https://skade2050.github.io/proyecto_bd_ra1/docs/3-modelo-reporte</link>
-    <guid>https://https://skade2050.github.io/proyecto_bd_ra1/docs/3-modelo-reporte</guid>
-    <description><![CDATA[ Transformación de datos validados en información útil mediante KPIs y reportes analíticos automáticos. ]]></description>
-    <pubDate>Sun, 09 Nov 2025 11:44:52 GMT</pubDate>
+    <pubDate>Sun, 09 Nov 2025 11:52:46 GMT</pubDate>
   </item><item>
     <title>2. Limpieza y Control de Calidad</title>
-    <link>https://https://skade2050.github.io/proyecto_bd_ra1/docs/2-limpieza-calidad</link>
-    <guid>https://https://skade2050.github.io/proyecto_bd_ra1/docs/2-limpieza-calidad</guid>
+    <link>https:///proyecto_bd_ra1/docs/2-limpieza-calidad</link>
+    <guid>https:///proyecto_bd_ra1/docs/2-limpieza-calidad</guid>
     <description><![CDATA[ Normalización, depuración y aplicación de reglas de calidad para generar datos limpios y en cuarentena. ]]></description>
-    <pubDate>Sun, 09 Nov 2025 11:44:31 GMT</pubDate>
+    <pubDate>Sun, 09 Nov 2025 11:52:46 GMT</pubDate>
+  </item><item>
+    <title>3. Modelado y Generación de Reportes</title>
+    <link>https:///proyecto_bd_ra1/docs/3-modelo-reporte</link>
+    <guid>https:///proyecto_bd_ra1/docs/3-modelo-reporte</guid>
+    <description><![CDATA[ Transformación de datos validados en información útil mediante KPIs y reportes analíticos automáticos. ]]></description>
+    <pubDate>Sun, 09 Nov 2025 11:52:46 GMT</pubDate>
+  </item><item>
+    <title>Pipeline de Encuestas</title>
+    <link>https:///proyecto_bd_ra1/</link>
+    <guid>https:///proyecto_bd_ra1/</guid>
+    <description><![CDATA[ Documentación completa del pipeline de encuestas — desde la ingesta y limpieza hasta el reporte final. ]]></description>
+    <pubDate>Sun, 09 Nov 2025 11:52:46 GMT</pubDate>
+  </item><item>
+    <title>Reporte UT1 · Encuestas de Satisfacción</title>
+    <link>https:///proyecto_bd_ra1/reportes/reporte-encuestas</link>
+    <guid>https:///proyecto_bd_ra1/reportes/reporte-encuestas</guid>
+    <description><![CDATA[ Análisis mensual de encuestas tras limpieza, validación y almacenamiento de datos. ]]></description>
+    <pubDate>Sun, 09 Nov 2025 11:52:46 GMT</pubDate>
   </item>
     </channel>
   </rss>
