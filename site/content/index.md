@@ -58,7 +58,7 @@ Incluye métricas clave, distribución de satisfacción, evolución mensual y co
 ## 🧠 Autor
 
 Proyecto académico desarrollado por  
-**Leandro Pérez Martínez** — módulo **Big Data Aplicado / UT1 – RA1 (FCT)**  
+**Leandro Pérez Martínez** — módulo **Big Data Aplicado / UT1 – RA1**  
 CIFP Carlos III, Cartagena (Murcia).
 
 ---
