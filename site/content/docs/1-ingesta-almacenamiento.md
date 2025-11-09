@@ -17,7 +17,7 @@ El proceso de ingesta comienza con la **recopilación y normalización** de los 
 
 1. ### **Origen de los Datos**  
    - Los datos de entrada se encuentran en la carpeta `project/output/xlsx/`.  
-   - Cada archivo (`encuestas_YYYYMM.xlsx`) representa un lote mensual de respuestas recogidas.  
+   - Cada archivo (`*.xlsx`) representa un lote mensual de respuestas recogidas.  
    - Estos ficheros contienen información sobre:  
      - `fecha` de la encuesta  
      - `id_respuesta`  
