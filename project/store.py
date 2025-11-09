@@ -1,6 +1,8 @@
 # project/store.py
 import sqlite3
 from pathlib import Path
+import pyarrow as pa
+import pyarrow.parquet as pq
 
 def save_to_sqlite(df, db_path="project/encuestas.db", table="raw_encuestas"):
     Path(db_path).parent.mkdir(parents=True, exist_ok=True)
@@ -15,9 +17,6 @@ def save_table_sqlite(df, table, db_path="project/encuestas.db"):
     con.close()
 
 def save_parquet(df, path):
-    from pathlib import Path
-    import pyarrow as pa
-    import pyarrow.parquet as pq
     Path(path).parent.mkdir(parents=True, exist_ok=True)
     # fuerza strings para columnas object (evita problemas)
     df2 = df.copy()

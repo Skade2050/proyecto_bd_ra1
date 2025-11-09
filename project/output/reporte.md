@@ -1,55 +1,57 @@
-# Reporte de Encuestas Mensuales
+# Informe de Encuestas (resumen sencillo)
 
-## Contexto
-
-- **Fuente:** Excels mensuales `encuestas_YYYYMM.xlsx`
+## 1. ¿Qué datos se han analizado?
 
 - **Periodo:** 2025-01-11 — 2025-12-12
 
-- **Actualización:** batch semanal
+- **Registros procesados (total):** 5000
 
-- **Trazabilidad:** `_ingest_ts`, `_source_file`, `_batch_id`
+- **Registros válidos (clean):** 1838
 
-
-## KPIs
-
-- **Encuestas (clean):** 1838
-
-- **NS/NC:** 227 (12.4%)
-
-- **Media de satisfacción:** 5.41
+- **Registros en cuarentena:** 3162
 
 
-### Definiciones de KPI
+## 2. Resumen rápido
 
-- **Encuestas (clean):** nº de filas tras reglas de calidad (fechas válidas, satisfacción 1–10, id_respuesta presente).
-
-- **NS/NC:** recuento de filas con `satisfaccion` nula tras mapear valores como 'no sabe/no contesta'.
-
-- **Media de satisfacción:** media aritmética de `satisfaccion` (1–10), excluyendo nulos.
-
-- **Evolución mensual:** `count` y `mean` por mes de `fecha`.
-
-
-## Distribución de satisfacción (1–10 + NS/NC)
-
-| satisf_str   |   n |
-|:-------------|----:|
-| 1            | 167 |
-| 2            | 171 |
-| 3            | 180 |
-| 4            | 153 |
-| 5            | 156 |
-| 6            | 136 |
-| 7            | 180 |
-| 8            | 169 |
-| 9            | 150 |
-| 10           | 149 |
-| NS/NC        | 227 |
+| Indicador                         |   Valor |
+|:----------------------------------|--------:|
+| Encuestas válidas (clean)         | 1838    |
+| Respuestas NS/NC (sin valoración) |  227    |
+| % NS/NC sobre clean               |   12.4  |
+| Media de satisfacción (1–10)      |    5.41 |
 
 
 
-## Evolución mensual
+## 3. ¿Qué significa cada indicador?
+
+- **Encuestas válidas (clean):** respuestas que pasan las reglas básicas de calidad.
+
+- **NS/NC:** respuestas sin una puntuación de satisfacción (por ejemplo, 'no sabe/no contesta').
+
+- **% NS/NC:** porcentaje de NS/NC respecto a todas las respuestas válidas.
+
+- **Media de satisfacción:** media aritmética de las puntuaciones (1 = muy mala, 10 = muy buena).
+
+
+## 4. Distribución de satisfacción (1–10 + NS/NC)
+
+| valor   |   n |
+|:--------|----:|
+| 1       | 167 |
+| 2       | 171 |
+| 3       | 180 |
+| 4       | 153 |
+| 5       | 156 |
+| 6       | 136 |
+| 7       | 180 |
+| 8       | 169 |
+| 9       | 150 |
+| 10      | 149 |
+| NS/NC   | 227 |
+
+
+
+## 5. Evolución por mes
 
 | mes                 |   encuestas |   media_satisf |
 |:--------------------|------------:|---------------:|
@@ -68,10 +70,14 @@
 
 
 
-## Quarantine (resumen)
+## 6. Calidad de los datos (cuarentena)
+
+Los registros que no cumplen las reglas se guardan aparte con su motivo:
+
 
 | causa                             |    n |
 |:----------------------------------|-----:|
 | fecha_invalida                    | 2906 |
 | fecha_invalida;satisf_fuera_rango |  165 |
 | satisf_fuera_rango                |   91 |
+
