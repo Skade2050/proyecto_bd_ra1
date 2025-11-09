@@ -31,8 +31,6 @@ Extra: informe_de_calidad.xlsx con recuento de nulos y causas de quarantine.
 ## 📊 Salidas principales
 project/output/reporte.md – Reporte principal en Markdown.
 
-project/output/reporte.pdf – Versión PDF para entrega.
-
 project/output/informe_de_calidad.xlsx – Recuento de nulos y quarantine.
 
 project/output/clean_encuestas.parquet – Datos limpios para analítica.
