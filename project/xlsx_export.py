@@ -85,7 +85,6 @@ def _escribir_hojas(xlsx_path: str, df: pd.DataFrame):
         wsq.auto_filter.ref = wsq.dimensions
         _autosize(wsq, q)
 
-# ---------- API pública ----------
 def build_xlsx_from_csv(csv_path: str, xlsx_path: str | None = None) -> str:
     """CSV → XLSX (Encuestas + ResumenCalidad). Devuelve ruta del XLSX."""
     src = Path(csv_path)
