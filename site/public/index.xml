@@ -6,16 +6,16 @@
       <description>Últimas 10 notas on BDA-RA1</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>1. Ingesta y Almacenamiento</title>
-    <link>https:///Proyecto_UT1_RA1_BigData/docs/1-ingesta-almacenamiento</link>
-    <guid>https:///Proyecto_UT1_RA1_BigData/docs/1-ingesta-almacenamiento</guid>
-    <description><![CDATA[ Proceso de carga inicial de datos, trazabilidad y almacenamiento en bruto (capa Bronze). ]]></description>
-    <pubDate>Sun, 09 Nov 2025 16:38:57 GMT</pubDate>
-  </item><item>
     <title>RA1 de Big Data Aplicado</title>
     <link>https:///Proyecto_UT1_RA1_BigData/</link>
     <guid>https:///Proyecto_UT1_RA1_BigData/</guid>
     <description><![CDATA[ Documentación completa del pipeline de encuestas — desde la ingesta y limpieza hasta el reporte final. ]]></description>
+    <pubDate>Sun, 09 Nov 2025 19:01:20 GMT</pubDate>
+  </item><item>
+    <title>1. Ingesta y Almacenamiento</title>
+    <link>https:///Proyecto_UT1_RA1_BigData/docs/1-ingesta-almacenamiento</link>
+    <guid>https:///Proyecto_UT1_RA1_BigData/docs/1-ingesta-almacenamiento</guid>
+    <description><![CDATA[ Proceso de carga inicial de datos, trazabilidad y almacenamiento en bruto (capa Bronze). ]]></description>
     <pubDate>Sun, 09 Nov 2025 16:38:57 GMT</pubDate>
   </item><item>
     <title>2. Limpieza y Control de Calidad</title>
